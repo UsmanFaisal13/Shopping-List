@@ -17,4 +17,5 @@ button.addEventListener('click',() => {
   dlt.addEventListener('click',() => {
     li.remove();
   });
+  input.focus();
 })
