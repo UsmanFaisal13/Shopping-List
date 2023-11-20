@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+#a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  font-size: 2rem;
+}
+
+#b {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 35px;
+}
+
+input {
+  border: 1px solid #dfe1e5;
+  width: 582px;
+  height: 44px;
+  border-radius: 24px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 16px;
+  outline: none;
+  box-shadow: none;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Apple SD Gothic Neo, arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 45px;
+  min-width: 54px;
+  cursor: pointer;
+  user-select: none;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+button:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
