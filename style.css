@@ -73,6 +73,6 @@ button:hover {
 }
 .deleteBtn:hover {
   transition: 0.5s; 
-  background-color: red;
+  background-color: #ff0000;
   
 }
