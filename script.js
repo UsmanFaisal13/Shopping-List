@@ -10,6 +10,7 @@ button.addEventListener('click',() => {
   const dlt = document.createElement('button');
   item.textContent = Myitems;
   dlt.textContent = 'Delete';
+  dlt.classList.add("deleteBtn")
   
   li.appendChild(item);
   li.appendChild(dlt);
